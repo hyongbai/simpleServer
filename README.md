@@ -4,8 +4,8 @@
 
 
 
-![image](sc1.png)
+![image](./assets/sc1.png)
 
-![image](sc2.png)
+![image](./assets/sc2.png)
 
-![image](sc3.png)
+![image](./assets/sc3.png)

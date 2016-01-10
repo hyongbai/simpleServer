@@ -14,7 +14,7 @@ import (
 )
 
 const (
-	upload_path string = "./uploads"
+	upload_path string = "../build/uploads"
 	server_port string = "2640"
 )
 
@@ -81,9 +81,8 @@ func main() {
 	fmt.Println("starting server!")
 	fmt.Println("http://127.0.0.1:" + server_port)
 
-	// http.Post("/media", uploadHandle)
 	http.HandleFunc("/", defaultHandle)
-	http.HandleFunc("/media", uploadHandle)
+	http.HandleFunc("/upload", uploadHandle)
 	http.HandleFunc("/post", postCreate)
 
 	server := &http.Server{
