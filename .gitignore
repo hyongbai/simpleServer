@@ -1,26 +1,52 @@
-# Compiled Object files, Static and Dynamic libs (Shared Objects)
-*.o
-*.a
-*.so
+# Java class files
+*.class
 
-# Folders
-_obj
-_test
+# generated files
+bin/
+gen/
+*.apk
+*.ap_
+*.dex
+*.iml
+local.properties
+.classpath
+.project
+*.jar.properties
+project.properties
+.settings
 
-# Architecture specific extensions/prefixes
-*.[568vq]
-[568vq].out
+#temp files
+*.swp
+*~
+*.iws
+*.ipr
 
-*.cgo1.go
-*.cgo2.c
-_cgo_defun.c
-_cgo_gotypes.go
-_cgo_export.*
+# lint
+lint.xml
 
-_testmain.go
+#android-app-pack
+auto.prop
 
-*.exe
-*.test
-*.prof
-uploads/
+.DS_Store
 
+#annotation
+.factorypath
+
+#androidAnntation
+.apt_generated
+
+# Android Studio
+.idea/
+.gradle/
+build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+
+
+*.index
+*.hprof
